@@ -5,44 +5,43 @@ import java.awt.*;
 
 import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertTrue;
-public class Tests {
-    private Cars car;
+public class TestSaab {
+    private Saab95 saab;
     @Before
     public void init(){
-
-
+        saab= new Saab95();
     }
     @Test
     public void testStartEngine(){
-        car.startEngine();
-        double speed=car.getCurrentSpeed();
+        saab.startEngine();
+        double speed=saab.getCurrentSpeed();
         assertTrue(speed==0.1);
     }
 
     @Test
     public void testStopEngine(){
-        car.startEngine();
-        car.stopEngine();
-        double speed=car.getCurrentSpeed();
+        saab.startEngine();
+        saab.stopEngine();
+        double speed=saab.getCurrentSpeed();
         assertTrue(speed==0);
     }
 
     @Test
     public void testGetNrDoors(){
-        int doors=car.getNrDoors();
+        int doors=saab.getNrDoors();
         assertTrue(doors==2);
     }
 
     @Test
     public void testGetSetColor(){
-        Color color = car.getColor();
+        Color color = saab.getColor();
         assertTrue(color == Color.red);
     }
 
     @Test
     public void testGetEnginePower(){
-        double enginePower=car.getEnginePower();
-        assertTrue(240 == enginePower);
+        double enginePower=saab.getEnginePower();
+        assertTrue(125 == enginePower);
     }
 
 }
