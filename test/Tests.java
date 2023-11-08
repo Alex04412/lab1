@@ -10,7 +10,7 @@ public class Tests {
     @Before
     public void init(){
 
-        car = new Cars(2,240, Color.red,"Peugeot206");
+
     }
     @Test
     public void testStartEngine(){
