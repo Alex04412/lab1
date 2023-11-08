@@ -38,9 +38,11 @@ public class Tests {
         Color color = car.getColor();
         assertTrue(color == Color.red);
     }
+
     @Test
     public void testGetEnginePower(){
         double enginePower=car.getEnginePower();
         assertTrue(240 == enginePower);
     }
+
 }
