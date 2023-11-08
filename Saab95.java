@@ -12,11 +12,11 @@ public class Saab95 extends Cars{
 
     }
 
-    private void setTurboOn(){
+    public void setTurboOn(){
 	    turboOn = true;
     }
 
-    private void setTurboOff(){
+    public void setTurboOff(){
 	    turboOn = false;
     }
     
@@ -33,14 +33,12 @@ public class Saab95 extends Cars{
     private void decrementSpeed(double amount){
         currentSpeed = getCurrentSpeed() - speedFactor() * amount;
     }
-    
-    // TODO fix this method according to lab pm
-    private void gas(double amount){
+
+    public void gas(double amount){
         incrementSpeed(amount);
     }
 
-    // TODO fix this method according to lab pm
-    private void brake(double amount){
+    public void brake(double amount){
         decrementSpeed(amount);
     }
 
