@@ -34,4 +34,6 @@ public class Tests {
         Color color = car.getColor();
         assertTrue(color == Color.red);
     }
+
+
 }
