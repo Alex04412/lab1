@@ -52,5 +52,16 @@ public class TestSaab {
         assertTrue(!saab.isTurboOn());
     }
 
+    @Test
+    public void testIncrementSpeed(){
+        saab.incrementSpeed(1);
+        assertTrue(saab.getCurrentSpeed()>=0.1);
+    }
+
+    @Test
+    public void testDecrementSpeed(){
+        saab.decrementSpeed(0);
+    }
+
 
 }
