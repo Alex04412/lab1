@@ -23,14 +23,3 @@ public class Volvo240 extends Cars {
         currentSpeed = Math.max(getCurrentSpeed() - speedFactor() * amount, 0);
     }
 }
-
-
-}
-
-    // TODO fix this method according to lab pm
-
-
-    // TODO fix this method according to lab pm
-
-
-

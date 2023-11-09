@@ -45,5 +45,12 @@ public class TestSaab {
         assertTrue(color == Color.red);
     }
 
+    @Test
+    public void testTurbo(){
+        saab.setTurboOn();
+        saab.setTurboOff();
+        assertTrue(!saab.isTurboOn());
+    }
+
 
 }
