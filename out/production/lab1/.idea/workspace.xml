@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29d0096f-0f8d-419c-8242-36e334338012" name="Changes" comment="OwO">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Tests.java" afterDir="false" />
-    </list>
+    <list default="true" id="29d0096f-0f8d-419c-8242-36e334338012" name="Changes" comment="Brakes and Gas in Cars instead of volvo and saab" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,30 +56,37 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Tests">
-    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Saab95">
+    <configuration name="Saab95" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Saab95" />
+      <module name="lab1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSaab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="TestSaab" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testGetNrDoors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSaab.testGetNrDoors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="TestSaab" />
       <option name="METHOD_NAME" value="testGetNrDoors" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testOwO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSaab.testOwO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="TestSaab" />
       <option name="METHOD_NAME" value="testOwO" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -93,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tests" />
-        <item itemvalue="JUnit.Tests.testOwO" />
-        <item itemvalue="JUnit.Tests.testGetNrDoors" />
-        <item itemvalue="JUnit.Tests.testOwO" />
-        <item itemvalue="JUnit.Tests.testGetNrDoors" />
+        <item itemvalue="Application.Saab95" />
+        <item itemvalue="JUnit.TestSaab" />
+        <item itemvalue="JUnit.TestSaab.testOwO" />
+        <item itemvalue="JUnit.TestSaab.testGetNrDoors" />
+        <item itemvalue="JUnit.TestSaab.testOwO" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +140,42 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1699439240340</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="OwO">
+      <option name="closed" value="true" />
+      <created>1699456353339</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1699456353339</updated>
+    </task>
+    <task id="LOCAL−00006" summary="OwO">
+      <option name="closed" value="true" />
+      <created>1699457120877</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1699457120877</updated>
+    </task>
+    <task id="LOCAL−00007" summary="Brakes and Gas in Cars instead of volvo and saab">
+      <option name="closed" value="true" />
+      <created>1699458519772</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1699458519772</updated>
+    </task>
+    <task id="LOCAL−00008" summary="Brakes and Gas in Cars instead of volvo and saab">
+      <option name="closed" value="true" />
+      <created>1699458737764</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1699458737764</updated>
+    </task>
+    <task id="LOCAL−00009" summary="Brakes and Gas in Cars instead of volvo and saab">
+      <option name="closed" value="true" />
+      <created>1699458776443</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1699458776443</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,11 +203,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="OwO" />
-    <option name="LAST_COMMIT_MESSAGE" value="OwO" />
+    <MESSAGE value="Brakes and Gas in Cars instead of volvo and saab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Brakes and Gas in Cars instead of volvo and saab" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Volvo240.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lab1$Tests_testOwO.ic" NAME="Tests.testOwO Coverage Results" MODIFIED="1699437723064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/lab1$Tests.ic" NAME="Tests Coverage Results" MODIFIED="1699438969431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/lab1$Tests.ic" NAME="TestSaab Coverage Results" MODIFIED="1699458669477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/lab1$Tests_testGetNrDoors.ic" NAME="Tests.testGetNrDoors Coverage Results" MODIFIED="1699438243301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
