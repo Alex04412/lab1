@@ -18,7 +18,7 @@ public class TestSaab {
     }
 
     @Test
-    public void testThaThing(){
+    public void testCurrentSpeed(){
         saab.gas(1);
         assertTrue(saab.currentSpeed<=saab.enginePower);
         //
